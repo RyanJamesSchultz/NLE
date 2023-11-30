@@ -1,6 +1,7 @@
 function [M]=GR_MFD_Rand(m1,m2,a,b,Nr)
   % Function that randomly draws earthquake magnitudes from the 
-  % Gutenberg-Richter magnitude-frequency distribution (GR-MFD).
+  % Gutenberg-Richter magnitude-frequency distribution (GR-MFD) using
+  % inverse transform sampling.
   % Code is vectorized.
   % 
   % Written by Ryan Schultz.

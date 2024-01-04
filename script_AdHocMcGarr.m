@@ -3,7 +3,7 @@
 % Also used to do some input sensitivity tests to examine for output result 
 % biasing.
 % 
-% Used to derive results for Supplementary Text S3.
+% Used to derive results for Supplementary Text S4.
 clear;
 
 % Define some constants.

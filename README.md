@@ -6,8 +6,8 @@ References:
             
             R. Schultz, (2024)
             Inferring maximum magnitudes from the ordered sequence of large earthquakes
-            submitted, xx, XXX.
-            doi: xyz.
+            Philosophical Transactions of the Royal Society A, 382, 20230185.
+            doi: 10.1098/rsta.2023.0185.
             
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.

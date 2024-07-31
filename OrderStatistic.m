@@ -1,6 +1,7 @@
 function [Mk,I]=OrderStatistic(M,k,truncation_flag)
   % Function that computes the (time-dependent) order statisitc of some 
-  % sample.
+  % sample.  This function assumes that the input sample is already  
+  % chronologically sorted.
   % 
   % Written by Ryan Schultz.
   % 

@@ -2,6 +2,8 @@
 
 I present a Matlab-based enviroment, NLE that uses concepts from order statistics to infer if a maximum magnitude is influencing a catalogue of earthquakes.  This repository is related to a study about the same topic [Schultz, 2024].  This repository contains programs, scripts, and data to recreate figures and results of the prior study.  The core tools developed are KS_dM_test.m, M2fit.m, and EnsembleW.m.  See also my prior GitHub repositories for required routines (e.g., Bval.m).
 
+Note that this approach has been improved upon by future work.  See my CAP2 repository for the improved versions of the methods.
+
 References: 
             
             R. Schultz, (2024)

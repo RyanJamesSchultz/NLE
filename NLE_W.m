@@ -38,7 +38,7 @@ function [W]=NLE_W(M,dMlrg,Mlrg,m1,m2,b)
   % Get the ensemble weights [Wagenmakers & Farrell, 2004].
   dAIC=AIC-min(AIC); Wa=exp(-dAIC/2); Wa=Wa/sum(Wa);
   dBIC=BIC-min(BIC); Wb=exp(-dBIC/2); Wb=Wb/sum(Wb);
-  W=Wa+Wb; W=W/sum(W);
+  W=(Wa+Wb)/2; W=W/sum(W);
   
 end
 
